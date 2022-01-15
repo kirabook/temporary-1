@@ -1,0 +1,326 @@
+<div id="menuUI2" class="menu-container menuUI2 menuUI-container"> 
+  <div id="mainmenuUI" class="menu-panel mainmenuUI-panel">
+    <div id="mainmenuUI-dialog" class="menu-dialog mainmenuUI-dialog scroll" data-active="false">
+      <div class="menu-header"><span>Main Menu</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#mainmenuUI-dialog" aria-label="Close">&times;</div></div>
+      <div class="menu-body">
+        <div class="menu-content">
+          <button type="button" class="menu-trigger btn btn-primary" data-trigger="menu" data-target="#optionsUI-dialog" aria-label="Options">Options</button>
+          <button type="button" class="menu-trigger btn btn-primary" data-trigger="menu" data-target="#chaptersUI-dialog" aria-label="Chapters">Chapters</button>
+          <button type="button" class="menu-trigger btn btn-primary" data-trigger="menu" data-target="#saveUI-dialog" aria-label="Save / Load"> Save / Load </button>
+          <button type="button" class="menu-trigger btn btn-primary" data-trigger="menu" data-target="#objectivesUI-dialog" aria-label="Objectives">Objectives</button>
+          <button type="button" class="menu-trigger btn btn-primary" data-trigger="menu" data-target="#characterConfigUI-dialog" aria-label="Character Config">Character Config</button>
+          <button type="button" class="menu-trigger btn btn-primary" data-trigger="menu" data-target="#mapUI-dialog" aria-label="Map">Map</button>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div id="optionsUI" class="menu-panel optionsUI-panel">
+    <div id="optionsUI-dialog" class="menu-dialog optionsUI-dialog scroll" data-active="false">
+      <div class="menu-header"><span>Options</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#optionsUI-dialog" aria-label="Close">&times;</div></div>
+      <div class="menu-body">
+        <div class="menu-content">
+          <div class="d-flex align-items-start">
+            <div class="nav flex-column nav-pills me-4" id="optionsUI-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link" id="optionsUI-audio-tab" data-bs-toggle="pill" data-bs-target="#optionsUI-audio" type="button" role="tab" aria-controls="optionsUI-audio" aria-selected="false">Audio</button>
+              <button class="nav-link active" id="optionsUI-ui-tab" data-bs-toggle="pill" data-bs-target="#optionsUI-ui" type="button" role="tab" aria-controls="optionsUI-ui" aria-selected="false">UI</button>
+              <button class="nav-link" id="optionsUI-controls-tab" data-bs-toggle="pill" data-bs-target="#optionsUI-controls" type="button" role="tab" aria-controls="optionsUI-controls" aria-selected="true">Controls</button>
+            </div>
+            <div class="tab-content" id="optionsUI-tabContent">
+              <div class="tab-pane fade" id="optionsUI-audio" role="tabpanel" aria-labelledby="optionsUI-audio-tab">
+                ...
+              </div>
+              <div class="tab-pane fade show active" id="optionsUI-ui" role="tabpanel" aria-labelledby="optionsUI-ui-tab">
+                <button type="button" class="menu-trigger btn btn-primary" data-trigger="resetui" data-target="#characterStatus-dialog" aria-label="UI - Reset skills menu">Reset skills menu</button>
+                <button type="button" class="menu-trigger btn btn-primary" data-trigger="resetui" data-target="#skillTooltip-dialog"  aria-label="UI - Reset tooltip">Reset tooltip</button>
+                <button type="button" class="menu-trigger btn btn-primary" data-trigger="resetui" data-target="#battleAction-dialog"  aria-label="UI - Reset action bar">Reset action bar</button>
+                <button type="button" class="menu-trigger btn btn-primary" data-trigger="resetui" data-target="[data-draggable='true']"  aria-label="UI - Reset all to default">Reset all to default</button>
+              </div>
+              <div class="tab-pane fade" id="optionsUI-controls" role="tabpanel" aria-labelledby="optionsUI-controls-tab">
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="mapUI" class="menu-panel mapUI-panel">
+    <div id="mapUI-dialog" class="menu-dialog mapUI-dialog scroll" data-active="false" data-draggable="true">
+      <div class="menu-header"><span>Map</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#mapUI-dialog" aria-label="Close">&times;</div></div>
+      <div class="menu-body">
+        <div class="menu-content" id="map-grid">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </div>
+      </div>
+    </div>
+  </div>
+  <div id="characterConfigUI" class="menu-panel characterConfigUI-panel">
+    <div id="characterConfigUI-dialog" class="menu-dialog characterConfigUI-dialog scroll" data-active="false" data-draggable="true">
+      <div class="menu-header"><span>Character Config</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#characterConfigUI-dialog" aria-label="Close">&times;</div></div>
+      <div class="menu-body">
+        <div class="menu-content">
+          <div id="teamGrid" class="">
+            <div id="itemOne" class="itemCharacter active inventory_character_uzumaki_shinachiku" data-ids="inventory_character_uzumaki_shinachiku" data-name="uzumaki_shinachiku">
+              <div class="itemHeader characterImage"></div>
+              <div class="itemContent">
+                <div class="characterContent">
+                  <div class="characterName">UZUMAKI SHINACHIKU</div>
+                  <div class="characterAttributes">
+                    <div class="attributeItem">
+                      <div class="attributeTitle">LEVEL</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">HEALTH</div>
+                      <div class="attributeValue">
+                        <div class="barContainer healthbarContainer">
+                          <div class="attributeBar healthbar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">CHAKRA</div>
+                      <div class="attributeValue">
+                        <div class="barContainer chakrabarContainer">
+                          <div class="attributeBar chakrabar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">STRENGTH</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">DEFENSE</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="itemTwo" class="itemCharacter inventory_character_uzumaki_hanami" data-ids="inventory_character_uzumaki_hanami" data-name="uzumaki_hanami">
+              <div class="itemHeader characterImage"></div>
+              <div class="itemContent">
+                <div class="characterContent">
+                  <div class="characterName">UZUMAKI HANAMI</div>
+                  <div class="characterAttributes">
+                    <div class="attributeItem">
+                      <div class="attributeTitle">LEVEL</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">HEALTH</div>
+                      <div class="attributeValue">
+                        <div class="barContainer healthbarContainer">
+                          <div class="attributeBar healthbar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">CHAKRA</div>
+                      <div class="attributeValue">
+                        <div class="barContainer chakrabarContainer">
+                          <div class="attributeBar chakrabar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">STRENGTH</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">DEFENSE</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="skillArea"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="itemThree" class="itemCharacter inventory_character_uzumaki_naruto" data-ids="inventory_character_uzumaki_naruto" data-name="uzumaki_naruto">
+              <div class="itemHeader characterImage"></div>
+              <div class="itemContent">
+                <div class="characterContent">
+                  <div class="characterName">UZUMAKI NARUTO</div>
+                  <div class="characterAttributes">
+                    <div class="attributeItem">
+                      <div class="attributeTitle">LEVEL</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">HEALTH</div>
+                      <div class="attributeValue">
+                        <div class="barContainer healthbarContainer">
+                          <div class="attributeBar healthbar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">CHAKRA</div>
+                      <div class="attributeValue">
+                        <div class="barContainer chakrabarContainer">
+                          <div class="attributeBar chakrabar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">STRENGTH</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">DEFENSE</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="skillArea"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="itemFour" class="itemCharacter inventory_character_haruno_sakura" data-ids="inventory_character_haruno_sakura" data-name="haruno_sakura">
+              <div class="itemHeader characterImage"></div>
+              <div class="itemContent">
+                <div class="characterContent">
+                  <div class="characterName">UZUMAKI SAKURA</div>
+                  <div class="characterAttributes">
+                    <div class="attributeItem">
+                      <div class="attributeTitle">LEVEL</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">HEALTH</div>
+                      <div class="attributeValue">
+                        <div class="barContainer healthbarContainer">
+                          <div class="attributeBar healthbar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">CHAKRA</div>
+                      <div class="attributeValue">
+                        <div class="barContainer chakrabarContainer">
+                          <div class="attributeBar chakrabar" style="width:50%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">STRENGTH</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="attributeItem">
+                      <div class="attributeTitle">DEFENSE</div>
+                      <div class="attributeValue">10</div>
+                    </div>
+                    <div class="skillArea"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="chaptersUI" class="menu-panel chapterUI-panel">
+    <div id="chaptersUI-dialog" class="menu-dialog chaptersUI-dialog scroll" data-active="false" data-draggable="true">
+      <div class="menu-header"><span>Chapters</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#chaptersUI-dialog" aria-label="Close">&times;</div></div>
+      <div class="menu-body">
+        <div class="menu-content">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </div>
+      </div>
+    </div>
+  </div>
+  <div id="objectivesUI" class="menu-panel objectivesUI-panel">
+    <div id="objectivesUI-dialog" class="menu-dialog objectivesUI-dialog scroll" data-active="false" data-draggable="true">
+      <div class="menu-header"><span>Objectives</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#objectivesUI-dialog" aria-label="Close">&times;</div></div>
+      <div class="menu-body">
+        <div class="menu-content">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="menuUI" style="display:none;">  
+  <div id="menuUIPanels">
+    <div id="teamContainer" class="panelContainer">
+      <div id="teamsHeader" class="panelHeader">
+        <h3>TEAM</h3>
+      </div>
+      <div id="teamPanel" class="panel" data-area="team">
+        <div class="innerPanel">
+          <div class="innerHeader">
+            <div class="item menuTitle"><h2>TEAM</h2></div>
+            <div class="item menuClose"><button type="button" data-trigger="close" class="menu-trigger btn-close" aria-label="Close"></button></div>
+          </div>
+          <div class="innerContent">
+            <div id="teamContent" class="teamContent catalog_all" data-name="all" data-ids="catalog_all">
+              <div class="tooltipContent">
+                <div class="item tooltipText">
+                  <p class="itemDescription">This is the first chapter, which is also a test of concept.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="objectivesContainer" class="panelContainer">
+      <div id="objectivesHeader" class="panelHeader">
+        <h3>Objectives</h3>
+      </div>
+      <div id="objectivesPanel" class="panel">
+        <div class="innerPanel">
+          <div class="innerHeader">
+            <div class="menuTitle"><h2>Objectives</h2></div>
+            <div class="menuClose"><button type="button" data-trigger="close" class="menu-trigger btn-close" aria-label="Close"></button></div>
+          </div>
+          <div class="innerContent">
+            <div id="item_objective_0" class="itemContainer active">
+              <div class="item">
+                <p class="itemName"><span class="objectiveName">objective 0</span> <span class="statusContainer">complete</span></p>
+                <p class="itemDescription">This is an objective</p>
+              </div>
+            </div>
+            <div id="item_objective_1" class="itemContainer active">
+              <div class="item">
+                <p class="itemName"><span class="objectiveName">objective 1</span> <span class="statusContainer">complete</span></p>
+                <p class="itemDescription">This is an objective</p>
+              </div>
+            </div>
+            <div id="item_objective_2" class="itemContainer active">
+              <div class="item">
+                <p class="itemName"><span class="objectiveName">objective 2</span> <span class="statusContainer">in progress</span></p>
+                <p class="itemDescription">This is an objective</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="optionsContainer" class="panelContainer">
+      <div id="optionsHeader" class="panelHeader">
+        <h3>Options</h3>
+      </div>
+      <div id="optionsPanel" class="panel">
+        <div class="innerPanel">
+          <div class="innerHeader">
+            <div class="menuTitle"><h2>Options</h2></div>
+            <div class="menuClose"><button type="button" data-trigger="close" class="menu-trigger btn-close" aria-label="Close"></button></div>
+          </div>
+          <div class="innerContent">
+            <button type="button" data-button-type="modal" class="btn chapter-select-btn" data-bs-toggle="modal" data-bs-target="#chapterMenuModal"> Chapter Select </button>
+            <button type="button" data-button-type="modal" class="btn save-load-btn" data-bs-toggle="modal" data-bs-target="#saveMenuModal"> Save / Load </button>
+            <button type="button" data-button-type="modal" class="btn sound-setting-btn" data-bs-toggle="modal" data-bs-target="#soundMenuModal"> Sound Settings </button>
+            <button type="button" data-button-type="modal" class="btn display-setting-btn" data-bs-toggle="modal" data-bs-target="#displayMenuModal"> Display Settings </button>
+            <button type="button" data-button-type="modal" class="btn control-setting-btn" data-bs-toggle="modal" data-bs-target="#controlMenuModal"> Control Settings </button>
+            <button type="button" data-button-type="modal" class="btn glossary-btn" data-bs-toggle="modal" data-bs-target="#glossaryMenuModal"> Glossary Settings </button>
+            <button type="button" class="btn tutorial-menu-btn"> Tutorial </button>
+            <button type="button" class="btn return-title-btn"> Return to Title </button>
+          </div>
+          <div class="innerFooter">
+            <div class="buttonContainer">
+              <!--<button type="button" data-button-type="save" class="btn btn-primary btn-save-setting">Save</button>
+                <button type="button" data-button-type="reset" class="btn btn-primary btn-reset">Reset to Default</button>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

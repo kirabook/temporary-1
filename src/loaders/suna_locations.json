@@ -1,0 +1,24 @@
+{ 
+  "images": {
+    "files": [
+      {"type": "image","key": "suna_cemetary","url": "src/assets/tilemaps/suna_cemetary.jpg"},
+      {"type": "image","key": "suna_hospital","url": "src/assets/tilemaps/suna_hospital.jpg"},
+      {"type": "image","key": "suna_hospital_emergency","url": "src/assets/tilemaps/suna_hospital_emergency.jpg"},
+      {"type": "image","key": "suna_hospital_room","url": "src/assets/tilemaps/suna_hospital_room.jpg"},
+      {"type": "image","key": "suna_kazekage_office","url": "src/assets/tilemaps/suna_kazekage_office.jpg"},
+      {"type": "image","key": "suna_kazekage_tower","url": "src/assets/tilemaps/suna_kazekage_tower.jpg"},
+      {"type": "image","key": "suna_library","url": "src/assets/tilemaps/suna_library.jpg"}
+    ]
+  },
+  "maps": {
+    "files": [
+      {"type": "image","key": "suna_cemetary","url": "src/assets/tilemaps/suna_cemetary.json"},
+      {"type": "image","key": "suna_hospital","url": "src/assets/tilemaps/suna_hospital.json"},
+      {"type": "image","key": "suna_hospital_emergency","url": "src/assets/tilemaps/suna_hospital_emergency.json"},
+      {"type": "image","key": "suna_hospital_room","url": "src/assets/tilemaps/suna_hospital_room.json"},
+      {"type": "image","key": "suna_kazekage_office","url": "src/assets/tilemaps/suna_kazekage_office.json"},
+      {"type": "image","key": "suna_kazekage_tower","url": "src/assets/tilemaps/suna_kazekage_tower.json"},
+      {"type": "image","key": "suna_library","url": "src/assets/tilemaps/suna_library.json"}
+    ]
+  }
+}

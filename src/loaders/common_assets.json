@@ -1,0 +1,120 @@
+{ 
+  "images": {
+    "files": [
+      {"type": "image","key": "logo","url": "src/assets/logo.png"},
+      {"type": "image","key": "scroll_top","url": "src/assets/images/scroll_top.png"},
+      {"type": "image","key": "scroll_tassel","url": "src/assets/images/scroll_tassel.png"},
+      {"type": "image","key": "ricepaper","url": "src/assets/images/ricepaper.png"},
+      {"type": "image","key": "ricepaper_2X","url": "src/assets/images/ricepaper_2X.png"},
+      {"type": "image","key": "shinachikukosenlogo","url": "src/assets/shinachiku-kosen-logo.png"},
+      {"type": "image","key": "tilesheet_1","url": "src/assets/tilemaps/tilesheet_1.png"},
+      {"type": "image","key": "background","url": "src/assets/images/background.jpg"},
+      {"type": "image","key": "base","url": "src/assets/images/base.png"},
+      {"type": "image","key": "thumb","url": "src/assets/images/thumb.png"},
+      {"type": "image","key": "ui_hp_bar","url": "src/assets/images/ui_hp_bar.png"},
+      {"type": "image","key": "ui_chakra_bar","url": "src/assets/images/ui_chakra_bar.png"},
+      {"type": "image","key": "ui_character_circle","url": "src/assets/images/ui_character_circle.png"},
+      {"type": "image","key": "ui_abilityHUD_circle","url": "src/assets/images/ui_abilityHUD_circle.png"},
+      {"type": "image","key": "brush_stroke","url": "src/assets/images/brush_stroke.png"},
+      {"type": "image","key": "haruno_sakura_icon","url": "src/assets/characters/haruno_sakura_icon.png"},
+      {"type": "image","key": "uzumaki_arashi_icon","url": "src/assets/characters/uzumaki_arashi_icon.png"},
+      {"type": "image","key": "uzumaki_hanami_icon","url": "src/assets/characters/uzumaki_hanami_icon.png"},
+      {"type": "image","key": "uzumaki_naruto_icon","url": "src/assets/characters/uzumaki_naruto_icon.png"},
+      {"type": "image","key": "uzumaki_shinachiku_icon","url": "src/assets/characters/uzumaki_shinachiku_icon.png"},
+      {"type": "image","key": "uzumaki_hanami_icon_caution","url": "src/assets/characters/uzumaki_hanami_icon_danger.png"},
+      {"type": "image","key": "uzumaki_hanami_icon_danger","url": "src/assets/characters/uzumaki_hanami_icon_danger.png"},
+      {"type": "image","key": "uzumaki_hanami_icon_dead","url": "src/assets/characters/uzumaki_hanami_icon_dead.png"},
+      {"type": "image","key": "uzumaki_naruto_icon_caution","url": "src/assets/characters/uzumaki_naruto_icon_danger.png"},
+      {"type": "image","key": "uzumaki_naruto_icon_danger","url": "src/assets/characters/uzumaki_naruto_icon_danger.png"},
+      {"type": "image","key": "uzumaki_shinachiku_icon_caution","url": "src/assets/characters/uzumaki_shinachiku_icon_danger.png"},
+      {"type": "image","key": "uzumaki_shinachiku_icon_danger","url": "src/assets/characters/uzumaki_shinachiku_icon_danger.png"},
+      {"type": "image","key": "uzumaki_shinachiku_icon_dead","url": "src/assets/characters/uzumaki_shinachiku_icon_dead.png"},
+      {"type": "image","key": "empty_abilityPortrait","url": "src/assets/characters/empty_abilityPortrait.png"},
+      {"type": "image","key": "uzumaki_hanami_abilityPortrait","url": "src/assets/characters/uzumaki_hanami_abilityPortrait.png"},
+      {"type": "image","key": "uzumaki_shinachiku_abilityPortrait","url": "src/assets/characters/uzumaki_shinachiku_abilityPortrait.png"},
+      {"type": "image","key": "uzumaki_shinachiku_panel","url": "src/assets/characters/uzumaki_shinachiku_panel.png"},
+      {"type": "image","key": "uzumaki_shinachiku_mapicon","url": "src/assets/characters/uzumaki_shinachiku_mapicon.png"}
+    ]
+  },
+  "json": {
+    "files": [
+      {"type": "json","key": "panels","url": "src/data/panels.json"},
+      {"type": "json","key": "locations","url": "src/data/locations.json"},
+      {"type": "json","key": "dialogue","url": "src/data/dialogue.json"},
+      {"type": "json","key": "abilities","url": "src/data/abilities.json"}
+    ]
+  },
+  "html": {
+    "files": [
+      {"type": "html","key": "menu_global","url": "src/ui/menu_global.html"},
+      {"type": "html","key": "menu_messages","url": "src/ui/menu_messages.html"},
+      {"type": "html","key": "battle_ui","url": "src/ui/menu_battle_ui.html"},
+      {"type": "html","key": "global_ui","url": "src/ui/global_ui.html"},
+      {"type": "html","key": "menu_character_status","url": "src/ui/menu_character_status.html"}
+    ]
+  },
+  "icons": {
+    "files": [
+      {"type": "image","key": "talk_icon","url": "src/assets/cursors/32x32/talk.png"},
+      {"type": "image","key": "ryo_icon","url": "src/assets/sprites/ryo_icon.png"},
+      {"type": "image","key": "jump_icon","url": "src/assets/sprites/jump_icon.png"},
+      {"type": "image","key": "gear_icon","url": "src/assets/sprites/gear_icon.png"},
+      {"type": "image","key": "down_arrow","url": "src/assets/sprites/down_arrow.png"},
+      {"type": "image","key": "left_arrow","url": "src/assets/sprites/left_arrow.png"},
+      {"type": "image","key": "right_arrow","url": "src/assets/sprites/right_arrow.png"},
+      {"type": "image","key": "check_mark","url": "src/assets/sprites/check_mark.png"},
+      {"type": "image","key": "down_arrow_hover","url": "src/assets/sprites/down_arrow_hover.png"},
+      {"type": "image","key": "left_arrow_hover","url": "src/assets/sprites/left_arrow_hover.png"},
+      {"type": "image","key": "right_arrow_hover","url": "src/assets/sprites/right_arrow_hover.png"},
+      {"type": "image","key": "check_mark_hover","url": "src/assets/sprites/check_mark_hover.png"},
+      {"type": "image","key": "objective_icon","url": "src/assets/sprites/objective_icon.png"},
+      {"type": "image","key": "turnaround_icon","url": "src/assets/sprites/turnaround_icon.png"},
+      {"type": "image","key": "weather_cloudy","url": "src/assets/sprites/weather_cloudy.png"},
+      {"type": "image","key": "weather_rainy","url": "src/assets/sprites/weather_rainy.png"},
+      {"type": "image","key": "weather_snowy","url": "src/assets/sprites/weather_snowy.png"},
+      {"type": "image","key": "weather_stormy","url": "src/assets/sprites/weather_stormy.png"},
+      {"type": "image","key": "weather_sunny","url": "src/assets/sprites/weather_day_sunny.png"},
+      {"type": "image","key": "weather_day_overcast","url": "src/assets/sprites/weather_day_overcast.png"},
+      {"type": "image","key": "weather_day_stormy","url": "src/assets/sprites/weather_day_stormy.png"},
+      {"type": "image","key": "weather_day_sunny","url": "src/assets/sprites/weather_day_sunny.png"},
+      {"type": "image","key": "weather_night","url": "src/assets/sprites/weather_night.png"},
+      {"type": "image","key": "weather_night_cloudy","url": "src/assets/sprites/weather_night_cloudy.png"}
+    ]
+  },
+  "sprites": {
+    "files": [
+      {"type": "image","key": "cursor_hand","url": "src/assets/sprites/cursor_hand.png"},
+      {"type": "image","key": "cursor_pointer3D","url": "src/assets/sprites/cursor_pointer3D.png"},
+      {"type": "image","key": "barHorizontal_blue_left","url": "src/assets/sprites/barHorizontal_blue_left.png"},
+      {"type": "image","key": "barHorizontal_blue_mid","url": "src/assets/sprites/barHorizontal_blue_mid.png"},
+      {"type": "image","key": "barHorizontal_blue_right","url": "src/assets/sprites/barHorizontal_blue_right.png"},
+      {"type": "image","key": "barHorizontal_green_left","url": "src/assets/sprites/barHorizontal_green_left.png"},
+      {"type": "image","key": "barHorizontal_green_mid","url": "src/assets/sprites/barHorizontal_green_mid.png"},
+      {"type": "image","key": "barHorizontal_green_right","url": "src/assets/sprites/barHorizontal_green_right.png"},
+      {"type": "image","key": "barHorizontal_red_left","url": "src/assets/sprites/barHorizontal_red_left.png"},
+      {"type": "image","key": "barHorizontal_red_mid","url": "src/assets/sprites/barHorizontal_red_mid.png"},
+      {"type": "image","key": "barHorizontal_red_right","url": "src/assets/sprites/barHorizontal_red_right.png"},
+      {"type": "image","key": "barHorizontal_shadow_left","url": "src/assets/sprites/barHorizontal_shadow_left.png"},
+      {"type": "image","key": "barHorizontal_shadow_mid","url": "src/assets/sprites/barHorizontal_shadow_mid.png"},
+      {"type": "image","key": "barHorizontal_shadow_right","url": "src/assets/sprites/barHorizontal_shadow_right.png"},
+      {"type": "image","key": "barHorizontal_white_left","url": "src/assets/sprites/barHorizontal_white_left.png"},
+      {"type": "image","key": "barHorizontal_white_mid","url": "src/assets/sprites/barHorizontal_white_mid.png"},
+      {"type": "image","key": "barHorizontal_white_right","url": "src/assets/sprites/barHorizontal_white_right.png"},
+      {"type": "image","key": "barHorizontal_yellow_left","url": "src/assets/sprites/barHorizontal_yellow_left.png"},
+      {"type": "image","key": "barHorizontal_yellow_mid","url": "src/assets/sprites/barHorizontal_yellow_mid.png"},
+      {"type": "image","key": "barHorizontal_yellow_right","url": "src/assets/sprites/barHorizontal_yellow_right.png"},
+      {"type": "image","key": "square_shadow","url": "src/assets/sprites/square_shadow.png"},
+      {"type": "image","key": "squareBlue","url": "src/assets/sprites/squareBlue.png"},
+      {"type": "image","key": "squareGreen","url": "src/assets/sprites/squareGreen.png"},
+      {"type": "image","key": "squareRed","url": "src/assets/sprites/squareRed.png"},
+      {"type": "image","key": "squareWhite","url": "src/assets/sprites/squareWhite.png"},
+      {"type": "image","key": "squareYellow","url": "src/assets/sprites/squareYellow.png"}
+    ]
+  },
+  "music": {
+    "files": []
+  },
+  "sfx": {
+    "files": []
+  }
+}

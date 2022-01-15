@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta charset="utf-8">
+		<link href="game.css" rel="stylesheet">
+		<script src="bootstrap.bundle.min.js"></script>
+		<script src="interact.min.js"></script>
+		<script src="phaser-navmesh-plugin.js"></script>
+		<script src="dragdrop.js"></script>
+	</head>
+	<body>
+		<div id="game-container"></div>
+		<div id="game-stats" style="position: absolute;top:20px;left:0;right:0;width: 250px;margin: auto;"><span id="dragstart"></span><br/><span id="drag"></span></div>
+		<div class="modal fade" id="soundMenuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="sound-settings" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      <div class="menu-body">
+		        <div id="sound-settings">
+		          <h3>Sound</h3>
+		          <div class="form-group">
+		            <label for="masterVolume">Master Volume</label>
+		            <div class="slider-container">
+		              <input type="range" class="slider stored" min="0" max="1" step="0.1" value="0" id="masterVolume" name="masterVolume">
+		              <div class="slider-value" id="masterVolumeValue"><span>0</span></div>
+		            </div>
+		          </div>
+		          <div class="form-group">
+		            <label for="musicVolume">Music</label>
+		            <div class="slider-container">
+		              <input type="range" class="slider stored" min="0" max="1" step="0.1" value="0" id="musicVolume" name="musicVolume">
+		              <div class="slider-value" id="musicVolumeValue"><span>0</span></div>
+		            </div>
+		          </div>
+		          <div class="form-group">
+		            <label for="ambianceVolume">Ambiance</label>
+		            <div class="slider-container">
+		              <input type="range" class="slider stored" min="0" max="1" step="0.1" value="0" id="ambianceVolume" name="ambianceVolume">
+		              <div class="slider-value" id="ambianceVolumeValue"><span>0</span></div>
+		            </div>
+		          </div>
+		          <div class="form-group">
+		            <label for="voVolume">Voices</label>
+		            <div class="slider-container">
+		              <input type="range" class="slider stored" min="0" max="1" step="0.1" value="0" id="voVolume" name="voVolume">
+		              <div class="slider-value" id="voVolumeValue"><span>0</span></div>
+		            </div>
+		          </div>
+		          <div class="form-group">
+		            <label for="sfxVolume">SFX</label>
+		            <div class="slider-container">
+		              <input type="range" class="slider stored" min="0" max="1" step="0.1" value="0" id="sfxVolume" name="sfxVolume">
+		              <div class="slider-value" id="sfxVolumeValue"><span>0</span></div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="displayMenuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="display-settings" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      <div class="menu-body">
+		        <div id="display-settings">
+		          <h3>Display</h3>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="controlMenuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="controls-settings" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      <div class="menu-body">
+		        <div id="controls-settings">
+		          <h3>Controls</h3>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="glossaryMenuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="glossary-menu" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      <div class="menu-body">
+		        <div id="glossary-menu">
+		          <h3>Glossary</h3>
+		          <div id="glossary-grid">
+		            <div id="item_glossary_0" class="itemContainer">
+		              <div class="item">
+		                <p class="itemName">Word 0</p>
+		                <p class="itemDescription">This is the definition</p>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="saveMenuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="save-menu" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      <div class="menu-body">
+		        <div id="save-menu">
+		          <h3>Save/Load</h3>
+		            <div id="save-grid">
+		              <div class="itemContainer" id="newSave"><div class="item">new save</div></div>
+		              <div class="itemContainer">
+		                <div class="item">
+		                  <p class="chapterNumber">Chapter: 0</p>
+		                  <p class="chapterAct">Act: 0</p>
+		                  <p class="chapterCharacter">Uzumaki Shinachiku</p>
+		                  <p class="saveDate">05/14/2021 5:00:00PM</p>
+		                </div>
+		              </div>
+		              <div class="itemContainer"><div class="item">Test 2</div></div>
+		              <div class="itemContainer"><div class="item">Test 3</div></div> 
+		            </div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade" id="chapterMenuModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="chapter-menu" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      <div class="menu-body">
+		        <div id="chapter-menu">
+		          <h3>Chapter Select</h3>
+		            <div id="chapter-grid">
+		              <div id="item_chapter_0" class="itemContainer">
+		                <div class="item">
+		                  <div class="itemImage"><img src="" alt="Chapter 0"/></div>
+		                  <p class="itemName">Chapter 0</p>
+		                  <p class="itemDescription">This is the first chapter, which is also a test of concept.</p>
+		                  <div class="itemButton"><button data-button-type="read" class="btn btn-primary btn-read">Read</button></div>
+		                </div>
+		              </div>
+		              <div id="item_chapter_1" class="itemContainer">
+		                <div class="item">
+		                  <div class="itemImage"><img src="" alt="Chapter 1"/></div>
+		                  <p class="itemName">Chapter 1</p>
+		                  <p class="itemDescription">This is the first chapter, which is also a test of concept.</p>
+		                  <div class="itemButton"><button data-button-type="read" class="btn btn-primary btn-read">Read</button></div>
+		                </div>
+		              </div>
+		              <div id="item_chapter_2" class="itemContainer">
+		                <div class="item">
+		                  <div class="itemImage"><img src="" alt="Chapter 2"/></div>
+		                  <p class="itemName">Chapter 2</p>
+		                  <p class="itemDescription">This is the first chapter, which is also a test of concept.</p>
+		                  <div class="itemButton"><button data-button-type="read" class="btn btn-primary btn-read">Read</button></div>
+		                </div>
+		              </div>
+		            </div>
+		        </div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		        <button type="button" class="btn btn-primary">Save</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>

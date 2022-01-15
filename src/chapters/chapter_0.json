@@ -1,0 +1,1613 @@
+{
+	"acts": [
+		{
+			"intro_music":null,
+			"outro_music":null,
+			"objective":"develop the gameeeee",
+			"startMap":"konoha_shinachiku_livingroom",
+			"weather":"sunny",
+			"partyList": ["uzumaki_shinachiku","haruno_sakura"],
+			"partyListB": [{ "name":"uzumaki_shinachiku", "level": 5 },{ "name":"haruno_sakura", "level": 15, "chat":3 }],
+			"ryo":100,
+			"objects": [
+				{
+					"map":"konoha_shinachiku_livingroom",
+					"name": "test_object",
+					"type":"battleObject",
+					"x": 400,
+					"y": 800,
+					"grid": null,
+					"chat":null,
+					"cutscene":null,
+					"battle":0
+				}
+			],
+			"npcs": [
+				{
+					"map":"konoha_shinachiku_livingroom",
+					"name": "uzumaki_hanami",
+					"type":"chat",
+					"x": 1500,
+					"y": 128,
+					"grid": null,
+					"chat":0,
+					"cutscene":null,
+					"battle":null,
+					"level": 1
+				},
+				{
+					"map":"konoha_hokage_mountain_view",
+					"name": "uzumaki_arashi",
+					"x": 1000,
+					"y": 64,
+					"grid": null,
+					"chat":2,
+					"cutscene":null,
+					"battle":null,
+					"level": 0
+				}
+			]
+		},
+		{
+			"intro_music":null,
+			"outro_music":null,
+			"startMap":"konoha_shinachiku_livingroom",
+			"weather":"sunny",
+			"mainCharacter":"uzumaki_shinachiku",
+			"currentParty": ["uzumaki_shinachiku","haruno_sakura"],
+			"npcs": [
+				{
+					"map":"konoha_shinachiku_livingroom",
+					"name": "uzumaki_naruto",
+					"x": 1000,
+					"y": 0,
+					"grid": 194,
+					"chat":1,
+					"cutscene":null,
+					"battle":null,
+					"level": 10
+				}
+			]
+		}
+	],
+	"objects": [
+		{
+			"map":"konoha_shinachiku_livingroom",
+			"name": "test_object",
+			"type":"object",
+			"x": 1500,
+			"y": 800,
+			"grid": null,
+			"chat":null,
+			"cutscene":null,
+			"battle":1
+		}
+	],
+	"npcs": [
+		{
+			"map": null,
+			"name": "uzumaki_hanami",
+			"type":"chat",
+			"x": 1500,
+			"y": 128,
+			"grid": null,
+			"chat":0,
+			"cutscene":null,
+			"battle": null
+		},
+		{
+			"map": null,
+			"name": "uzumaki_naruto",
+			"type":"chat",
+			"x": 600,
+			"y": 128,
+			"grid": null,
+			"chat":1,
+			"cutscene":null,
+			"battle":null
+		},
+		{
+			"map": null,
+			"name": "uzumaki_arashi",
+			"x": 1000,
+			"y": 64,
+			"grid": null,
+			"chat":2,
+			"cutscene":null,
+			"battle":null
+		},
+		{
+			"map": null,
+			"name": "haruno_sakura",
+			"x": 1500,
+			"y": 64,
+			"grid": null,
+			"chat":3,
+			"cutscene":null,
+			"battle":null
+		}
+	],
+	"chats": [
+		{
+			"key":0,
+			"dialogue": [
+				{
+					"character": "uzumaki_hanami",
+					"type":"dialogue",
+					"text":"....",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"!!!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "up"
+				},
+				{
+					"character": "uzumaki_hanami",
+					"type":"question",
+					"text":"???",
+					"answers":[
+						{
+							"text":"Chat with Hanami",
+							"chatOFF":4,
+							"cutscene":0
+						},
+						{
+							"text":"It's nothing.",
+							"chat":null,
+							"cutscene":null
+						}
+					]
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Ah it's nothing. Carry on.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_hanami",
+					"type":"dialogue",
+					"text":"Are you teasing me?",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"No no, I promise.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"type":"end"
+				}
+			]
+		},
+		{
+			"key":1,
+			"dialogue": [
+				{
+					"character": "uzumaki_naruto",
+					"type":"dialogue",
+					"text":"Hey kiddo",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_naruto",
+					"type":"question",
+					"text":"I've got something to tell ya.",
+					"answers":[
+						{
+							"text":"Chat to Naruto",
+							"chat":null,
+							"cutscene":1
+						},
+						{
+							"text":"Gotta go.",
+							"chat":null,
+							"cutscene":null
+						}
+					]
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Sorry, I'm a bit busy actually...",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_naruto",
+					"type":"dialogue",
+					"text":"Later I guess...",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Sorry...",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"type":"end"
+				}
+			]
+		},
+		{
+			"key":2,
+			"dialogue": [
+				{
+					"character": "uzumaki_arashi",
+					"type":"dialogue",
+					"text":"...",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_arashi",
+					"type":"question",
+					"text":"Hm?",
+					"answers":[
+						{
+							"text":"Chat with Arashi",
+							"chat":null,
+							"cutscene":2
+						},
+						{
+							"text":"It's nothing.",
+							"chat":null,
+							"cutscene":null
+						}
+					]
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Sorry, my head has been in the clouds lately.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_arashi",
+					"type":"dialogue",
+					"text":"Oh. Ok.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Sorry to bother you.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"type":"end"
+				}
+			]
+		},
+		{
+			"key":3,
+			"dialogue": [
+				{
+					"character": "haruno_sakura",
+					"type":"dialogue",
+					"text":"Hey",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "haruno_sakura",
+					"type":"question",
+					"text":"Need something?",
+					"answers":[
+						{
+							"text":"Chat with Sakura",
+							"chat":null,
+							"cutscene":3
+						},
+						{
+							"text":"It's nothing.",
+							"chat":null,
+							"cutscene":null
+						}
+					]
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"No, I'm good.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "haruno_sakura",
+					"type":"dialogue",
+					"text":"Talk to you later, then.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Later",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"type":"end"
+				}
+			]
+		},
+		{
+			"key":4,
+			"dialogue": [
+				{
+					"character": "uzumaki_hanami",
+					"type":"dialogue",
+					"text":"Hey Shina, are you about to go to training?",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"Yep.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "up"
+				},
+				{
+					"character": "uzumaki_hanami",
+					"type":"dialogue",
+					"text":"Oh! Can I come watch again??",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"No way, last time you made Lee-sensei cry.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_hanami",
+					"type":"dialogue",
+					"text":"I did not... ok fine. I won't come. This time.",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"type":"end"
+				}
+			]
+		}
+	],
+	"cutscenes": [
+		{
+			"key":0,
+			"pages": [
+				{ 
+					"music":null,
+					"sfx":null,
+					"type":"page",
+					"panels": [
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom",
+							"onFloor":true,
+							"scale":1,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"What a nice day.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "walk",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Kinda is yeah",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"Oh, Shina!",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								}
+							]
+						}
+					]
+				},
+				{ 
+					"music":null,
+					"sfx":null,
+					"type":"page",
+					"panels": [
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom",
+							"onFloor":true,
+							"scale":2,
+							"panelBoundsX": null,
+							"panelBoundsY": 1,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"What a nice day.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "walk",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Kinda is yeah",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"Oh, Shina!",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								}
+							]
+						}
+					]
+				},
+				{
+					"music":null,
+					"sfx":null,
+					"type":"page",
+					"panels": [
+						{
+							"set":"set_g_01",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom",
+							"onFloor":true,
+							"scale":2,
+							"panelBoundsX": 1,
+							"panelBoundsY": 2,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Hey.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								},
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"Hey bro! What's up?",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								}
+							]
+						},
+						{
+							"set":"set_g_02",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom_2",
+							"scale":0.5,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Not much, just strolling along.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"Is that so?",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								}
+							]
+						},
+						{
+							"set":"set_g_03",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom",
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_hanami",
+									"type":"dialogue",
+									"text":"I won't keep ya then.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								}
+							]
+						},
+						{
+							"set":"set_g_04",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom_2",
+							"scale":0.5,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"See ya after practice.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":null,
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "walk",
+									"direction": "right",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":5,
+									"movetoY":null
+								}
+							]
+						},
+						{
+							"set":"set_g_06",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":"konoha_shinachiku_livingroom",
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_hanami",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_arashi",
+									"type":"dialogue",
+									"text":null,
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "walk",
+									"endAnimation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null,
+									"movetoX":2,
+									"movetoY":0
+								},
+								{
+									"character": "uzumaki_arashi",
+									"type":"dialogue",
+									"text":"Just stopping by.",
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":null,
+									"movetoY":null
+								},
+								{
+									"character": "uzumaki_arashi",
+									"type":"dialogue",
+									"text":null,
+									"emotion":"happy",
+									"voice":"happy",
+									"animation": "walk",
+									"direction": "right",
+									"onFloor":true,
+									"x":2,
+									"y": null,
+									"movetoX":5,
+									"movetoY":0
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key":1,
+			"pages": [
+				{
+					"music":null,
+					"sfx":null,
+					"type":"page",
+					"panels": [
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_naruto",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_naruto",
+									"type":"dialogue",
+									"text":"Heya! Busy?",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_naruto",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Nah, just taking a walk.",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_naruto",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_naruto",
+									"type":"dialogue",
+									"text":"Well don't be late for lunch. We're having ramen.",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key":2,
+			"pages": [
+				{
+					"music":null,
+					"sfx":null,
+					"type":"page",
+					"panels": [
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_arashi",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_arashi",
+									"type":"dialogue",
+									"text":"Hey.",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_arashi",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Heya Arashi. Where ya going?",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_arashi",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_arashi",
+									"type":"dialogue",
+									"text":"Going to go hang out when Kendama.",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_arashi",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Don't be late for lunch, ok? ",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "uzumaki_arashi",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_arashi",
+									"type":"dialogue",
+									"text":"I know.",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key":3,
+			"pages": [
+				{
+					"music":null,
+					"sfx":null,
+					"type":"page",
+					"panels": [
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "haruno_sakura",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "haruno_sakura",
+									"type":"dialogue",
+									"text":"Hey Shina-chan. How was training today? ",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "haruno_sakura",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "uzumaki_shinachiku",
+									"type":"dialogue",
+									"text":"Eh the usual. Lee-sensei is tough...",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						},
+						{
+							"set":"full",
+							"music":null,
+							"sfx":null,
+							"type":"panel",
+							"background":null,
+							"scale":1,
+							"onFloor":true,
+							"panelBoundsX": null,
+							"panelBoundsY": null,
+							"characters":[
+								{
+									"character": "haruno_sakura",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "right",
+									"onFloor":true,
+									"x":0,
+									"y": null
+								},
+								{
+									"character": "uzumaki_shinachiku",
+									"emotion":"happy",
+									"animation": "idle",
+									"direction": "left",
+									"onFloor":true,
+									"x":5,
+									"y": null
+								}
+							],
+							"dialogue": [
+								{
+									"character": "haruno_sakura",
+									"type":"dialogue",
+									"text":"As expected. Don't give up, ok?",
+									"emotion":"happy",
+									"voice":"happy",
+									"onFloor":true,
+									"pose": "stand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"battles": [
+		{
+			"key":0,
+			"music":null,
+			"sfx":null,
+			"mode":"spar",
+			"location": "konoha_training_a",
+			"partyList": ["uzumaki_shinachiku"],
+			"partyListB": [{ "name":"uzumaki_shinachiku", "level": 5 },{ "name":"haruno_sakura", "level": 15 }],
+			"cutscenes": {
+				"start": [
+					{
+						"character": "uzumaki_hanami",
+						"type":"dialogue",
+						"text":"I've been waiting for a chance to spar against you!",
+						"emotion":"happy",
+						"voice":"happy",
+						"onFloor":true,
+						"animation": "idle"
+					},
+					{
+						"character": "uzumaki_shinachiku",
+						"type":"dialogue",
+						"text":"Then let's see what you've got.",
+						"emotion":"happy",
+						"voice":"happy",
+						"onFloor":true,
+						"animation": "idle"
+					}
+				],
+				"end": [
+					{
+						"character": "uzumaki_hanami",
+						"type":"dialogue",
+						"text":"Ah man, that was tough. We lost!",
+						"emotion":"disappointed",
+						"voice":"disappointed",
+						"onFloor":true,
+						"animation": "idle"
+					}
+				],
+				"loss": [
+					{
+						"character": "uzumaki_hanami",
+						"type":"dialogue",
+						"text":"I've been waiting for a chance to spar against you!",
+						"emotion":"happy",
+						"voice":"happy",
+						"onFloor":true,
+						"animation": "idle"
+					},
+					{
+						"character": "uzumaki_shinachiku",
+						"type":"dialogue",
+						"text":"Then let's see what you've got.",
+						"emotion":"happy",
+						"voice":"happy",
+						"onFloor":true,
+						"animation": "idle"
+					}
+				]
+			},
+			"left": {
+				"characters": [
+					{ "name":"uzumaki_shinachiku", "level": 5 }
+				]
+			},
+			"right": {
+				"characters": [
+					{ "name":"uzumaki_hanami", "level": 5 }
+				]
+			}
+		},
+		{
+			"key":1,
+			"music":null,
+			"sfx":null,
+			"mode":"spar",
+			"location": "konoha_training_a",
+			"partyList": ["uzumaki_shinachiku","haruno_sakura"],
+			"partyListB": [{ "name":"uzumaki_shinachiku", "level": 5 },{ "name":"haruno_sakura", "level": 15 }],
+			"dialogue": [
+				{
+					"character": "uzumaki_naruto",
+					"type":"dialogue",
+					"text":"Surprising training attack!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"!!!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				}
+			],
+			"left": {
+				"characters": [
+					{ "name":"uzumaki_shinachiku", "level": 5 },
+					{ "name":"haruno_sakura", "level": 10 }
+				]
+			},
+			"right": {
+				"characters": [
+					{ "name":"uzumaki_hanami", "level": 5 },
+					{ "name":"uzumaki_naruto", "level": 10 }
+				]
+			}
+		},
+		{
+			"key":2,
+			"music":null,
+			"sfx":null,
+			"mode":"battle",
+			"location": "konoha_training_a",
+			"partyList": ["uzumaki_shinachiku","haruno_sakura"],
+			"partyListB": [{ "name":"uzumaki_shinachiku", "level": 5 },{ "name":"haruno_sakura", "level": 15 }],
+			"dialogue": [
+				{
+					"character": "uzumaki_naruto",
+					"type":"dialogue",
+					"text":"Surprising training attack!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"!!!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				}
+			],
+			"left": {
+				"characters": [
+					{ "name":"uzumaki_shinachiku", "level": 5 },
+					{ "name":"haruno_sakura", "level": 10 }
+				]
+			},
+			"right": {
+				"characters": [
+					{ "name":"uzumaki_hanami", "level": 5 },
+					{ "name":"uzumaki_naruto", "level": 10 }
+				]
+			}
+		},
+		{
+			"key":3,
+			"music":null,
+			"sfx":null,
+			"mode":"boss",
+			"location": "konoha_training_a",
+			"partyList": ["uzumaki_shinachiku","haruno_sakura"],
+			"partyListB": [{ "name":"uzumaki_shinachiku", "level": 5 },{ "name":"haruno_sakura", "level": 15 }],
+			"dialogue": [
+				{
+					"character": "uzumaki_naruto",
+					"type":"dialogue",
+					"text":"Surprising training attack!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				},
+				{
+					"character": "uzumaki_shinachiku",
+					"type":"dialogue",
+					"text":"!!!",
+					"emotion":"happy",
+					"voice":"happy",
+					"onFloor":true,
+					"animation": "idle"
+				}
+			],
+			"left": {
+				"characters": [
+					{ "name":"uzumaki_shinachiku", "level": 5 },
+					{ "name":"haruno_sakura", "level": 10 }
+				]
+			},
+			"right": {
+				"characters": [
+					{ "name":"uzumaki_hanami", "level": 5 },
+					{ "name":"uzumaki_naruto", "level": 10 }
+				]
+			}
+		}
+	]
+}

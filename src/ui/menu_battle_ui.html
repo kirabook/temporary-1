@@ -1,0 +1,57 @@
+<div id="battleUI" class="menu-container battleUI battleUI-container" data-battle="false" data-player="">
+	<div class="menu-panel hero-panel character-panel">
+		<div id="hero-dialog" class="menu-dialog hero-dialog" data-active="false"></div>
+	</div>
+	<div class="menu-panel battle-panel">
+		<div class="container-fluid col col-12">
+			<div id="characterStatus-dialog" class="menu-dialog characterStatus-dialog scroll" data-active="false" data-draggable="true">
+				<div class="menu-header"><span>Skills</span> <div class="menu-trigger close-btn" data-trigger="close" data-target="#characterStatus-dialog" aria-label="Close">&times;</div></div>
+				<div class="menu-body">
+					<div class="characterList" id="characterList"></div>
+					<div class="allSkills" id="allSkills"></div>
+				</div>
+			</div>
+			<div id="skillTooltip-dialog" class="menu-dialog skillTooltip-dialog" data-draggable="true">
+				<div class="menu-body">
+					<div class="menu-content item__header">
+						<div class="item__icon" data-icon><img class="val val__icon" src="src/assets/skills/empty.png" alt="null"></div>
+			        </div>
+			        <div class="menu-content item__information">
+						<div class="item__title">
+							<div data-name><span class="val val__name">null</span></div>
+							<div data-type><span class="val val__type">null</span></div>
+						</div>
+				        <div class="item__stats">
+							<div class="item_stat" data-attack data-value="0">ATK: <span class="val val__attack">null</span></div>
+							<div class="item_stat" data-defense data-value="0">DEF: <span class="val val__defense">null</span></div>
+							<div class="item_stat" data-hp_cost data-value="0">COST: <span class="val val__hp_cost">null</span> HP</div>
+							<div class="item_stat" data-hp_restore data-value="0">RESTORE: <span class="val val__hp_restore">null</span> HP</div>
+							<div class="item_stat" data-chakra_cost data-value="0">COST: <span class="val val__chakra_cost">null</span> CHAKRA</div>
+							<div class="item_stat" data-chakra_restore data-value="0">RESTORE: <span class="val val_chakra_restore">null</span> CHAKRA</div>
+							<div class="item_stat" data-rank data-value="0">RANK: <span class="val val__rank">null</span></div>
+							<div class="item_stat" data-level data-value="0">LVL: <span class="val val__level">null</span></div>
+							<div class="item_stat" data-cooldown data-value="0">COOLDOWN: <span class="val val__cooldown">null</span></div>
+				        </div>
+						<div class="item__description" data-description><span class="val val__description">null</span></div>
+			        </div>
+			    </div>
+		    </div>
+			<div id="battleAction-dialog" class="menu-dialog battleAction-dialog" data-active="false" data-draggable="true" data-editing="false">
+				<div class="menu-body">
+					<div class="menu-content active" data-name="fleeMenu" id="fleeMenu">
+						<div class="menu-trigger escape-panel" data-trigger="escape"><img id="escapeButton" class="escape-btn" src="src/assets/sprites/escape.png"></div>
+					</div>
+					<div class="menu-content active" data-name="skillMenu" id="skillMenu">
+						<div id="skill-panel" class="skill-panel"></div>
+					</div>
+					<div class="menu-content active" data-name="proceedMenu" id="proceedMenu">
+						<div class="menu-trigger proceed-panel button-panel" data-trigger="proceed"><img id="proceedButton" class="proceed-btn" src="src/assets/sprites/check_mark_hover.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="menu-panel target-panel character-panel">
+		<div id="target-dialog" class="menu-dialog target-dialog" data-active="false"></div>	
+	</div>
+</div>

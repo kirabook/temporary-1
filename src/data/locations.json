@@ -1,0 +1,348 @@
+{	
+	"positions": {
+		"x": [0, 80, 160, 320, 480, 640, 800, 960, 1120, 1280, 1440, 1600, 1760, 1920, 2080, 2240, 2400, 2560],
+		"y": {
+			"object": {
+				"default": 1024,
+				"onFloor": [895, 959, 1024],
+				"treeTops": [895, 959, 1024]
+			},
+			"panel":{
+				"default": 480,
+				"onFloor": [480, 576, 672, 768, 864, 960, 1056, 1152],
+				"treeTops": [0, 96, 288, 384]
+			}
+		}
+	},
+	"map":{
+		"konoha_akimichi_clan": {
+			"type": "outside",
+			"village": "konoha",
+			"title": "Akimichi Clan Grounds"
+		},
+		"konoha_akimichi_home": {
+			"type": "outside",
+			"village": "konoha",
+			"title": "Chouna Clan"
+		},
+		"konoha_akimichi_livingroom": {
+			"type": "outside",
+			"village": "konoha",
+			"title": "Akimichi Clan"
+		},
+		"konoha_arashi_bedroom": {
+			"type": "room",
+			"village": "konoha",
+			"title": "Arashi's Bedroom"
+		},
+		"konoha_bbq_resturant": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_cemetary": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_coffee_resturant": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_dagashi_resturant": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_forestofdeath": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_gates": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_hanami_bedroom": {
+			"type": "room",
+			"village": "konoha",
+			"x": 245,
+			"y": 645
+		},
+		"konoha_hokage_mountain_bottom": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_hokage_mountain_top": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_hokage_mountain_view": {
+			"type": "outside",
+			"village": "konoha",
+			"title": "Hokage Mountain View"
+		},
+		"konoha_hokage_office": {
+			"type": "inside",
+			"village": "konoha",
+			"x": 135,
+			"y": 700
+		},
+		"konoha_hokage_tower": {
+			"type": "outside",
+			"village": "konoha",
+			"x": 160,
+			"y": 700
+		},
+		"konoha_hospital": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_hospital_emergency": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_hospital_office": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_hospital_room": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_hyuuga_clan": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_hyuuga_meeting": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_inuzuka_clan": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_kawa_bedroom": {
+			"type": "room",
+			"village": "konoha"
+		},
+		"konoha_kawa_home": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_kawa_livingroom": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_library": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_library_inside": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_naka_river": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_nara_clan": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_nara_home": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_nara_livingroom": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_ramen_resturant": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_shinachiku_bathroom": {
+			"type": "inside",
+			"village": "konoha",
+			"title": "Shinachiku's Bathroom"
+		},
+		"konoha_shinachiku_bedroom": {
+			"type": "room",
+			"village": "konoha",
+			"x": 245,
+			"y": 645,
+			"title": "Shinachiku's Bedoom",
+			"sides": 1
+		},
+		"konoha_shinachiku_bedroom_2": {
+			"type": "room",
+			"village": "konoha",
+			"x": 245,
+			"y": 645,
+			"title": "Shinachiku's Bedoom",
+			"sides": 1
+		},
+		"konoha_shinachiku_diningroom": {
+			"type": "inside",
+			"village": "konoha",
+			"x": 245,
+			"y": 645
+		},
+		"konoha_shinachiku_entryway": {
+			"type": "inside",
+			"village": "konoha",
+			"x": 245,
+			"y": 645
+		},
+		"konoha_shinachiku_house": {
+			"type": "outside",
+			"village": "konoha",
+			"x": 245,
+			"y": 645
+		},
+		"konoha_shinachiku_kitchen": {
+			"type": "inside",
+			"village": "konoha",
+			"x": 245,
+			"y": 645
+		},
+		"konoha_shinachiku_livingroom": {
+			"type": "inside",
+			"village": "konoha",
+			"x": 245,
+			"y": 645,
+			"title": "Uzumaki Living Room",
+			"sides": 1
+		},
+		"konoha_shinachiku_livingroom_2": {
+			"type": "inside",
+			"village": "konoha",
+			"x": 245,
+			"y": 645,
+			"title": "Uzumaki Living Room",
+			"sides": 1
+		},
+		"konoha_shopping_a": {
+			"type": "outside",
+			"village": "konoha",
+			"x": 875,
+			"y": 700,
+			"description": "BBQ restrant street"
+		},
+		"konoha_shopping_a_roof": {
+			"type": "outside",
+			"village": "konoha",
+			"x": 875,
+			"y": 660,
+			"description": "BBQ restrant street"
+		},
+		"konoha_shopping_b": {
+			"type": "outside",
+			"village": "konoha",
+			"description": "Ramen resturant street"
+		},
+		"konoha_shopping_c": {
+			"type": "outside",
+			"village": "konoha",
+			"description": "Yamanaka Flowers street"
+		},
+		"konoha_shopping_d": {
+			"type": "outside",
+			"village": "konoha",
+			"description": "Dagashi shop street and coffee shop"
+		},
+		"konoha_souken_bedroom": {
+			"type": "room",
+			"village": "konoha"
+		},
+		"konoha_souken_home": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_souken_livingroom": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_stadium_audience": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_stadium_outside": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_stadium_privateroom": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_stadium_ring": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_training_a": {
+			"type": "outside",
+			"village": "konoha",
+			"x": 1210,
+			"y": 820
+		},
+		"konoha_training_b": {
+			"type": "outside",
+			"village": "konoha",
+			"x": 930,
+			"y": 820
+		},
+		"konoha_training_c": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_uchiha_clan": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_walkway_a": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_yamanaka_clan": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_yamanaka_home": {
+			"type": "outside",
+			"village": "konoha"
+		},
+		"konoha_yamanaka_livingroom": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"konoha_yamanaka_store_inside": {
+			"type": "inside",
+			"village": "konoha"
+		},
+		"suna_cemetary": {
+			"type": "outside",
+			"village": "suna"
+		},
+		"suna_hospital": {
+			"type": "outside",
+			"village": "suna"
+		},
+		"suna_hospital_emergency": {
+			"type": "inside",
+			"village": "suna"
+		},
+		"suna_hospital_room": {
+			"type": "inside",
+			"village": "suna"
+		},
+		"suna_kazekage_office": {
+			"type": "inside",
+			"village": "suna"
+		},
+		"suna_kazekage_tower": {
+			"type": "outside",
+			"village": "suna"
+		},
+		"suna_library": {
+			"type": "outside",
+			"village": "suna"
+		}
+	}
+}

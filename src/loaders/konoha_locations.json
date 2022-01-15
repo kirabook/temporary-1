@@ -1,0 +1,32 @@
+{ 
+  "backgrounds": {
+    "files": [
+      {"type": "image","key": "map_konoha","url": "src/assets/tilemaps/map_konoha.jpg"},
+      {"type": "image","key": "konoha_map","url": "src/assets/tilemaps/konoha_map.jpg"},
+      {"type": "image","key": "konoha_hokage_mountain_view","url": "src/assets/tilemaps/konoha_hokage_mountain_view.jpg"},
+      {"type": "image","key": "konoha_shinachiku_bedroom","url": "src/assets/tilemaps/konoha_shinachiku_bedroom.jpg"},
+      {"type": "image","key": "konoha_shinachiku_bedroom_2","url": "src/assets/tilemaps/konoha_shinachiku_bedroom_2.jpg"},
+      {"type": "image","key": "konoha_shinachiku_livingroom","url": "src/assets/tilemaps/konoha_shinachiku_livingroom.jpg"},
+      {"type": "image","key": "konoha_shinachiku_livingroom_2","url": "src/assets/tilemaps/konoha_shinachiku_livingroom_2.jpg"},
+      {"type": "image","key": "konoha_shopping_a","url": "src/assets/tilemaps/konoha_shopping_a.jpg"},
+      {"type": "image","key": "konoha_shopping_a_roof","url": "src/assets/tilemaps/konoha_shopping_a_roof.jpg"},
+      {"type": "image","key": "konoha_training_a","url": "src/assets/tilemaps/konoha_training_a.jpg"},
+      {"type": "image","key": "konoha_training_b","url": "src/assets/tilemaps/konoha_training_b.jpg"},
+      {"type": "image","key": "konoha_walkway_a","url": "src/assets/tilemaps/konoha_walkway_a.jpg"}
+    ]
+  },
+  "maps": {
+    "files": [
+      {"type": "tilemapTiledJSON","key": "konoha_hokage_mountain_view","url": "src/assets/tilemaps/konoha_hokage_mountain_view.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_shinachiku_bedroom","url": "src/assets/tilemaps/konoha_shinachiku_bedroom.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_shinachiku_bedroom_2","url": "src/assets/tilemaps/konoha_shinachiku_bedroom_2.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_shinachiku_livingroom","url": "src/assets/tilemaps/konoha_shinachiku_livingroom.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_shinachiku_livingroom_2","url": "src/assets/tilemaps/konoha_shinachiku_livingroom_2.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_shopping_a","url": "src/assets/tilemaps/konoha_shopping_a.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_shopping_a_roof","url": "src/assets/tilemaps/konoha_shopping_a_roof.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_training_a","url": "src/assets/tilemaps/konoha_training_a.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_training_b","url": "src/assets/tilemaps/konoha_training_b.json"},
+      {"type": "tilemapTiledJSON","key": "konoha_walkway_a","url": "src/assets/tilemaps/konoha_walkway_a.json"}
+    ]
+  }
+}

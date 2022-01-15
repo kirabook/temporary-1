@@ -1,0 +1,20 @@
+{ 
+  "characters": {
+    "files": [
+      {"type": "spritesheet","key": "uzumaki_shinachiku","url": "src/assets/characters/uzumaki_shinachiku.png"},
+      {"type": "spritesheet","key": "uzumaki_hanami","url": "src/assets/characters/uzumaki_hanami.png"},
+      {"type": "spritesheet","key": "uzumaki_naruto","url": "src/assets/characters/uzumaki_naruto.png"},
+      {"type": "spritesheet","key": "uzumaki_arashi","url": "src/assets/characters/uzumaki_arashi.png"},
+      {"type": "spritesheet","key": "oldwoman","url": "src/assets/characters/oldwoman.png"},
+      {"type": "spritesheet","key": "oldman","url": "src/assets/characters/oldman.png"},
+      {"type": "spritesheet","key": "youngwoman","url": "src/assets/characters/youngwoman.png"},
+      {"type": "spritesheet","key": "youngman","url": "src/assets/characters/youngman.png"},
+      {"type": "pack","key": "konoha_npcs","url": "src/loaders/konoha_npcs.json"}
+    ]
+  },
+  "locations": {
+    "files": [
+      {"type": "pack","key": "map_locations","url": "src/loaders/konoha_locations.json"}
+    ]
+  }
+}

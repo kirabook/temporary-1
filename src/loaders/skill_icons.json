@@ -1,0 +1,14 @@
+{ 
+  "icons": {
+    "files": [
+      {"type": "image","key": "rasengan_icon","url": "src/assets/skills/rasengan.png"},
+      {"type": "image","key": "ss_rank_icon","url": "src/assets/skills/ss_rank.png"},
+      {"type": "image","key": "s_rank_icon","url": "src/assets/skills/s_rank.png"},
+      {"type": "image","key": "a_rank_icon","url": "src/assets/skills/a_rank.png"},
+      {"type": "image","key": "b_rank_icon","url": "src/assets/skills/b_rank.png"},
+      {"type": "image","key": "c_rank_icon","url": "src/assets/skills/c_rank.png"},
+      {"type": "image","key": "d_rank_icon","url": "src/assets/skills/d_rank.png"},
+      {"type": "image","key": "e_rank_icon","url": "src/assets/skills/e_rank.png"}
+    ]
+  }
+}

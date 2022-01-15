@@ -1,0 +1,10 @@
+{ 
+  "npcs": {
+    "files": [
+      {"type": "spritesheet","key": "oldman","url": "src/assets/characters/oldman.png"},
+      {"type": "spritesheet","key": "oldwoman","url": "src/assets/characters/oldwoman.png"},
+      {"type": "spritesheet","key": "youngman","url": "src/assets/characters/youngman.png"},
+      {"type": "spritesheet","key": "youngwoman","url": "src/assets/characters/youngwoman.png"}
+    ]
+  }
+}
